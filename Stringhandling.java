@@ -27,6 +27,18 @@ class Stinghandling {
         for (String word : words) {
             System.out.println("Split word: " + word);
         }
+         /*Stingbuilder is a class which is used to create mutable sequence of characters
+         * It is similar to String, but it allows for modification of the string content.
+         * if any modification is done on the stringbuilder object it will not create a new object
+         * but it will modify the existing object.
+         * StringBuilder is more efficient than String for frequent modifications, such as appending,deleting,reversing,replacing,substring.
+         * It is commonly used in scenarios where string manipulation is required, such as building dynamic strings,
+         * constructing SQL queries, or generating formatted output.
+         * StringBuilder is not synchronized, making it suitable for single-threaded applications.
+         * it has no thread safety,means multiple threads cannot accsess the same StringBuilder object
+         * simultaneously without proper synchronization.
+         * StringBuilder is more efficient than StringBuffer for single-threaded applications.
+         */
         StringBuilder sb = new StringBuilder("Hello");
         sb.append(", World!");
         System.out.println(sb);

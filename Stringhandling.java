@@ -52,5 +52,6 @@ class Stinghandling {
         sb.replace(7,12,"Kurma");
         System.out.println("After replace: " + sb);
         System.out.println("Final String: " + sb.substring(7, 12));
+        StringBuffer s=new StringBuffer("Hello");
 
     }}

@@ -1,3 +1,13 @@
+/*In java,String is an object that represents a sequence of charecters.Strings are the instances
+ * of the class java.lang.String..Strings are immutable,meaning we  cannot modify the strings once it
+ * is created.once we perform any operation on the string, a new string is created.
+ * it is used for the manipulation of text such as storing, comparing, and manipulating strings.
+ * The String class provides various methods for string manipulation, such as concatenation, substring,
+ * character extraction, and searching.
+ * real time applications of strings include user input handling, text processing,
+ * data validation, and formatting output.
+ * The String class is widely used in Java programming for tasks such as file handling, database operations,
+ */
 class Stinghandling {
     public static void main(String[] args) {
         String str = "Hello, World!";
